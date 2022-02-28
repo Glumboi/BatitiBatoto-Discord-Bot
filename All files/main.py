@@ -114,7 +114,7 @@ async def roles(ctx):
 
 @client.event
 async def on_raw_reaction_add(payload):
-    ourMessageID = 941334810843025410
+    ourMessageID = 
 
     if ourMessageID == payload.message_id:
         member = payload.member
